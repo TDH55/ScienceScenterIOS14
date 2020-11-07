@@ -1,0 +1,61 @@
+[
+    {
+        "id": 0,
+        "name": "Astronomy",
+        "resources": [{
+            "id": 0,
+            "name": "NASA",
+            "description": "Official NASA website",
+            "link": "https://nasa.gov",
+            "image": "placeholder2"
+        },
+        {
+            "id": 1,
+            "name": "Not Nasa",
+            "description": "Official Not NASA website",
+            "link": "https://nasa.gov",
+            "image": "placeholder3"
+        }]
+    },
+    {
+        "id": 1,
+        "name": "Biology",
+        "resources": []
+    },
+    {
+        "id": 2,
+        "name": "Chemistry",
+        "resources": []
+    },
+    {
+        "id": 3,
+        "name": "Nature",
+        "resources": []
+    },
+    {
+        "id": 4,
+        "name": "People",
+        "resources": []
+    },
+    {
+        "id": 5,
+        "name": "Physics",
+        "resources": []
+    },
+    {
+        "id": 6,
+        "name": "Technology",
+        "resources": []
+    },
+    {
+        "id": 7,
+        "name": "Weather",
+        "resources": []
+    },
+    {
+        "id": 8,
+        "name": "Other",
+        "resources": []
+    }
+]
+

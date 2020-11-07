@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "name": "Astronomy",
+        "activities": []
+    },
+    {
+        "id": 1,
+        "name": "Biology",
+        "activities": []
+    },
+    {
+        "id": 2,
+        "name": "Chemistry",
+        "activities": []
+    },
+    {
+        "id": 3,
+        "name": "Nature",
+        "activities": []
+    },
+    {
+        "id": 4,
+        "name": "People",
+        "activities": []
+    },
+    {
+        "id": 5,
+        "name": "Physics",
+        "activities": []
+    },
+    {
+        "id": 6,
+        "name": "Technology",
+        "activities": []
+    },
+    {
+        "id": 7,
+        "name": "Weather",
+        "activities": []
+    },
+    {
+        "id": 8,
+        "name": "Other",
+        "activities": []
+    }
+]

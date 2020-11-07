@@ -1,0 +1,66 @@
+[
+    {
+        "id": 0,
+        "name": "Mercury",
+        "image": "Mercury",
+        "number": 1,
+        "imageSource": "Image: © NASA/JHUAPL/CIW",
+        "used": false
+    },
+    {
+        "id": 1,
+        "name": "Venus",
+        "image": "Venus",
+        "number": 2,
+        "imageSource": "Image: © Kevil Gill/JAXA/ISAS/DARTS/Flickr",
+        "used": false
+    },
+    {
+        "id": 2,
+        "name": "Earth",
+        "image": "Earth",
+        "number": 3,
+        "imageSource": "",
+        "used": false
+    },
+    {
+        "id": 3,
+        "name": "Mars",
+        "image": "Mars",
+        "number": 4,
+        "imageSource": "CC BY-SA 3.0-IGO (https://creativecommons.org/licenses/by-sa/3.0-igo)",
+        "used": false
+    },
+    {
+        "id": 4,
+        "name": "Jupiter",
+        "image": "Jupiter",
+        "number": 5,
+        "imageSource": "NASA, ESA, A. Simon (Goddard Space Flight Center) and M.H. Wong (University of California, Berkeley)",
+        "used": false
+    },
+    {
+        "id": 5,
+        "name": "Saturn",
+        "image": "Saturn",
+        "number": 6,
+        "imageSource": "NASA/JPL-Caltech",
+        "used": false
+    },
+    {
+        "id": 6,
+        "name": "Uranus",
+        "image": "Uranus",
+        "number": 7,
+        "imageSource": "",
+        "used": false
+    },
+    {
+        "id": 7,
+        "name": "Neptune",
+        "image": "Neptune",
+        "number": 8,
+        "imageSource": "NASA/JPL",
+        "used": false
+    }
+]

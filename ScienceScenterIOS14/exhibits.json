@@ -1,0 +1,101 @@
+[
+    {
+        "id" : 1,
+        "name" : "Desktop Pendulum Wave",
+        "topic" : 0,
+        "description" : "This desktop pendulam wave combines science and mathmatics to create a set of pendulums that swing in a repeating pattern. Pendulums are governed by the principals of physics and swing in a predictable manner based on their physical characteristics.",
+        "year" : "2020",
+        "image" : ["pendulum"],
+        "science" : "This is a science description 1"
+    },
+    {
+        "id" : 2,
+        "name" : "Ferrofluid Fun",
+        "topic" : 2,
+        "description" : "Ferrofluid is a liquid that posseses the characteristics of a magnet. In this exhibit, you can use magnets to create shapes in the container of ferrofluid using the liqueds magnetic properties.",
+        "year" : "2020",
+        "image" : ["ferrofluid"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 3,
+        "name" : "Face Swap",
+        "topic" : 2,
+        "description" : "This is exhibit lets you combine your face with a friends. Using mirrors, you'll be able to see the reflection of your face in front of your partners face. ",
+        "year" : "2020",
+        "image" : ["faceswap"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 4,
+        "name" : "Levitation Station",
+        "topic" : 2,
+        "description" : "This exhibit uses magnets to allow a car to float above a track. This exhibit lets you race with a partner and see who's levitating car can make it to the end of their track faster.",
+        "year" : "2020",
+        "image" : ["levitation"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 5,
+        "name" : "Center of Attraction",
+        "topic" : 2,
+        "description" : "Using magnets and magnetic black sand, this exhibit demonstrates the science behind magnets and magnetic poles, which is evident in how the sand spikes up when interacting with a magnet.",
+        "year" : "2020",
+        "image" : ["attraction"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 6,
+        "name" : "The Way the Ball Bounces",
+        "topic" : 2,
+        "description" : "This exhibit demonstrates how gravity affects a ball as it falls downward through a set of wooden pegs.",
+        "year" : "2020",
+        "image" : ["bounces"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 7,
+        "name" : "Pattern Maker",
+        "topic" : 2,
+        "description" : "While making patterns in the spinning sand, this exhibit allows you to observe the effects of centrifugal force and the Coriolis Effect. These two invisible forces result in curved lines when you draw in the sand.",
+        "year" : "2020",
+        "image" : ["pattern"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 8,
+        "name" : "Off to the Races",
+        "topic" : 2,
+        "description" : "In this exhibit, two partners race ping pong balls down a peg board. This exhibit combines science and mathmatics, the ball is brought down the board by gravity while predicting what path the ball takes comes down to mathmatic probability.",
+        "year" : "2020",
+        "image" : ["race"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 9,
+        "name" : "Balance That",
+        "topic" : 2,
+        "description" : "This exihibit demonstrates the effects of weight distribution and counterbalances as you attempt to balance an array of items on the designated disc.",
+        "year" : "2020",
+        "image" : ["balance"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 10,
+        "name" : "Parachute Launcher",
+        "topic" : 2,
+        "description" : "This exhibit demonstrates the concepts of aerodynamics, velocity, and surface area by utilizing a wind tunnel to test the flight of various objects.",
+        "year" : "2020",
+        "image" : ["parachute"],
+        "science" : "This is a science description 2"
+    },
+    {
+        "id" : 11,
+        "name" : "Twisted Tangrams",
+        "topic" : 2,
+        "description" : "This is a description",
+        "year" : "2020",
+        "image" : ["tangrams"],
+        "science" : "This is a science description 2"
+    }
+]

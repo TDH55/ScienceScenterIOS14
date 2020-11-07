@@ -8,8 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Int = 3
     var body: some View {
-        Text("Hello, world!").padding()
+        TabView(selection: $selection){
+            ActivitiesList()
+                .tabItem{
+                    Image(systemName: "gamecontroller")
+                    Text("Activities")
+                }
+                .tag(1)
+            ExhibitList()
+                .tabItem{
+                    Image(systemName: "line.horizontal.3")
+                    Text("Exhibits")
+                }
+                .tag(2)
+            Home()
+                .tabItem{
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+                .tag(3)
+            ResourceList()
+                .tabItem{
+                    Image(systemName: "book")
+                    Text("Resources")
+                }
+                .tag(4)
+            Text("About")
+                .tabItem{
+                    Image(systemName: "line.horizontal.3")
+                    Text("About")
+                }
+                .tag(5)
+        }
     }
 }
 

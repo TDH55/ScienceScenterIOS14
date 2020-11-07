@@ -7,12 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564B5F5324ABE11B00E3C550 /* PlinkoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B5F5224ABE11B00E3C550 /* PlinkoView.swift */; };
+		564C9DD824AD032E0089E7B1 /* ResourceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C9DD724AD032E0089E7B1 /* ResourceDetailView.swift */; };
+		564C9DDB24AD194C0089E7B1 /* ZeroGravityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C9DDA24AD194C0089E7B1 /* ZeroGravityView.swift */; };
 		56A3F7E024A50D5E007FFF7F /* ScienceScenterIOS14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F7DF24A50D5E007FFF7F /* ScienceScenterIOS14App.swift */; };
 		56A3F7E224A50D5E007FFF7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F7E124A50D5E007FFF7F /* ContentView.swift */; };
 		56A3F7E424A50D5F007FFF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A3F7E324A50D5F007FFF7F /* Assets.xcassets */; };
 		56A3F7E724A50D5F007FFF7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A3F7E624A50D5F007FFF7F /* Preview Assets.xcassets */; };
 		56A3F7F224A50D5F007FFF7F /* ScienceScenterIOS14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F7F124A50D5F007FFF7F /* ScienceScenterIOS14Tests.swift */; };
 		56A3F7FD24A50D5F007FFF7F /* ScienceScenterIOS14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F7FC24A50D5F007FFF7F /* ScienceScenterIOS14UITests.swift */; };
+		56A3F81224A68C8F007FFF7F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F81124A68C8F007FFF7F /* MapView.swift */; };
+		56A3F81824A6C4EE007FFF7F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F81324A6C4EE007FFF7F /* Helper.swift */; };
+		56A3F81924A6C4EE007FFF7F /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 56A3F81424A6C4EE007FFF7F /* activities.json */; };
+		56A3F81A24A6C4EE007FFF7F /* exhibits.json in Resources */ = {isa = PBXBuildFile; fileRef = 56A3F81524A6C4EE007FFF7F /* exhibits.json */; };
+		56A3F81B24A6C4EE007FFF7F /* planets.json in Resources */ = {isa = PBXBuildFile; fileRef = 56A3F81624A6C4EE007FFF7F /* planets.json */; };
+		56A3F81C24A6C4EE007FFF7F /* ResourceList.json in Resources */ = {isa = PBXBuildFile; fileRef = 56A3F81724A6C4EE007FFF7F /* ResourceList.json */; };
+		56A3F82124A6C505007FFF7F /* Exhibit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F81D24A6C505007FFF7F /* Exhibit.swift */; };
+		56A3F82224A6C505007FFF7F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F81E24A6C505007FFF7F /* Resource.swift */; };
+		56A3F82324A6C505007FFF7F /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F81F24A6C505007FFF7F /* Planet.swift */; };
+		56A3F82424A6C505007FFF7F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82024A6C505007FFF7F /* Activity.swift */; };
+		56A3F83D24A6C51B007FFF7F /* ExhibitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82624A6C51B007FFF7F /* ExhibitList.swift */; };
+		56A3F83E24A6C51B007FFF7F /* ExhibitListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82724A6C51B007FFF7F /* ExhibitListItem.swift */; };
+		56A3F83F24A6C51B007FFF7F /* ExhibitCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82824A6C51B007FFF7F /* ExhibitCircleImage.swift */; };
+		56A3F84024A6C51B007FFF7F /* MatchTheColorMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82B24A6C51B007FFF7F /* MatchTheColorMainView.swift */; };
+		56A3F84124A6C51B007FFF7F /* ColorToMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82C24A6C51B007FFF7F /* ColorToMatch.swift */; };
+		56A3F84324A6C51B007FFF7F /* AlteredColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F82E24A6C51B007FFF7F /* AlteredColor.swift */; };
+		56A3F84424A6C51B007FFF7F /* GameOverSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83024A6C51B007FFF7F /* GameOverSheetView.swift */; };
+		56A3F84524A6C51B007FFF7F /* NameThePlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83124A6C51B007FFF7F /* NameThePlanet.swift */; };
+		56A3F84624A6C51B007FFF7F /* PlanetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83224A6C51B007FFF7F /* PlanetButton.swift */; };
+		56A3F84724A6C51B007FFF7F /* AnswerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83324A6C51B007FFF7F /* AnswerText.swift */; };
+		56A3F84824A6C51B007FFF7F /* ActivitiesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83424A6C51B007FFF7F /* ActivitiesList.swift */; };
+		56A3F84924A6C51B007FFF7F /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83624A6C51B007FFF7F /* Board.swift */; };
+		56A3F84A24A6C51B007FFF7F /* BalanceGameMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83724A6C51B007FFF7F /* BalanceGameMainView.swift */; };
+		56A3F84B24A6C51B007FFF7F /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83824A6C51B007FFF7F /* Triangle.swift */; };
+		56A3F84C24A6C51B007FFF7F /* VirtualExhbitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83A24A6C51B007FFF7F /* VirtualExhbitListView.swift */; };
+		56A3F84D24A6C51B007FFF7F /* ResourceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F83C24A6C51B007FFF7F /* ResourceList.swift */; };
+		56A3F85124A6C52C007FFF7F /* LocationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F84E24A6C52C007FFF7F /* LocationTitleView.swift */; };
+		56A3F85224A6C52C007FFF7F /* HomeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F84F24A6C52C007FFF7F /* HomeImage.swift */; };
+		56A3F85324A6C52C007FFF7F /* FeaturedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F85024A6C52C007FFF7F /* FeaturedList.swift */; };
+		56A3F85724A6C537007FFF7F /* ExhibitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F85524A6C537007FFF7F /* ExhibitDetailView.swift */; };
+		56A3F85824A6C537007FFF7F /* TheScienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F85624A6C537007FFF7F /* TheScienceView.swift */; };
+		56A3F85C24A6C6E8007FFF7F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F85B24A6C6E8007FFF7F /* Home.swift */; };
+		56A3F85E24A6CAED007FFF7F /* FeaturedGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3F85D24A6CAED007FFF7F /* FeaturedGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +69,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564B5F5224ABE11B00E3C550 /* PlinkoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlinkoView.swift; sourceTree = "<group>"; };
+		564C9DD724AD032E0089E7B1 /* ResourceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDetailView.swift; sourceTree = "<group>"; };
+		564C9DDA24AD194C0089E7B1 /* ZeroGravityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroGravityView.swift; sourceTree = "<group>"; };
 		56A3F7DC24A50D5E007FFF7F /* ScienceScenterIOS14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScienceScenterIOS14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A3F7DF24A50D5E007FFF7F /* ScienceScenterIOS14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceScenterIOS14App.swift; sourceTree = "<group>"; };
 		56A3F7E124A50D5E007FFF7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +84,39 @@
 		56A3F7F824A50D5F007FFF7F /* ScienceScenterIOS14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScienceScenterIOS14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A3F7FC24A50D5F007FFF7F /* ScienceScenterIOS14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceScenterIOS14UITests.swift; sourceTree = "<group>"; };
 		56A3F7FE24A50D5F007FFF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A3F81124A68C8F007FFF7F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		56A3F81324A6C4EE007FFF7F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		56A3F81424A6C4EE007FFF7F /* activities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
+		56A3F81524A6C4EE007FFF7F /* exhibits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exhibits.json; sourceTree = "<group>"; };
+		56A3F81624A6C4EE007FFF7F /* planets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planets.json; sourceTree = "<group>"; };
+		56A3F81724A6C4EE007FFF7F /* ResourceList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResourceList.json; sourceTree = "<group>"; };
+		56A3F81D24A6C505007FFF7F /* Exhibit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exhibit.swift; sourceTree = "<group>"; };
+		56A3F81E24A6C505007FFF7F /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		56A3F81F24A6C505007FFF7F /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		56A3F82024A6C505007FFF7F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		56A3F82624A6C51B007FFF7F /* ExhibitList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitList.swift; sourceTree = "<group>"; };
+		56A3F82724A6C51B007FFF7F /* ExhibitListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitListItem.swift; sourceTree = "<group>"; };
+		56A3F82824A6C51B007FFF7F /* ExhibitCircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitCircleImage.swift; sourceTree = "<group>"; };
+		56A3F82B24A6C51B007FFF7F /* MatchTheColorMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTheColorMainView.swift; sourceTree = "<group>"; };
+		56A3F82C24A6C51B007FFF7F /* ColorToMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorToMatch.swift; sourceTree = "<group>"; };
+		56A3F82E24A6C51B007FFF7F /* AlteredColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlteredColor.swift; sourceTree = "<group>"; };
+		56A3F83024A6C51B007FFF7F /* GameOverSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverSheetView.swift; sourceTree = "<group>"; };
+		56A3F83124A6C51B007FFF7F /* NameThePlanet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameThePlanet.swift; sourceTree = "<group>"; };
+		56A3F83224A6C51B007FFF7F /* PlanetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetButton.swift; sourceTree = "<group>"; };
+		56A3F83324A6C51B007FFF7F /* AnswerText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerText.swift; sourceTree = "<group>"; };
+		56A3F83424A6C51B007FFF7F /* ActivitiesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesList.swift; sourceTree = "<group>"; };
+		56A3F83624A6C51B007FFF7F /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		56A3F83724A6C51B007FFF7F /* BalanceGameMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceGameMainView.swift; sourceTree = "<group>"; };
+		56A3F83824A6C51B007FFF7F /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		56A3F83A24A6C51B007FFF7F /* VirtualExhbitListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualExhbitListView.swift; sourceTree = "<group>"; };
+		56A3F83C24A6C51B007FFF7F /* ResourceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceList.swift; sourceTree = "<group>"; };
+		56A3F84E24A6C52C007FFF7F /* LocationTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationTitleView.swift; path = ../../../../../ScienceScenter/ScienceScenter/Views/MainViews/Home/LocationTitleView.swift; sourceTree = "<group>"; };
+		56A3F84F24A6C52C007FFF7F /* HomeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeImage.swift; path = ../../../../../ScienceScenter/ScienceScenter/Views/MainViews/Home/HomeImage.swift; sourceTree = "<group>"; };
+		56A3F85024A6C52C007FFF7F /* FeaturedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeaturedList.swift; path = ../../../../../ScienceScenter/ScienceScenter/Views/MainViews/Home/FeaturedList.swift; sourceTree = "<group>"; };
+		56A3F85524A6C537007FFF7F /* ExhibitDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitDetailView.swift; sourceTree = "<group>"; };
+		56A3F85624A6C537007FFF7F /* TheScienceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheScienceView.swift; sourceTree = "<group>"; };
+		56A3F85B24A6C6E8007FFF7F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		56A3F85D24A6CAED007FFF7F /* FeaturedGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +144,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564C9DD624AD031F0089E7B1 /* ResourceDetails */ = {
+			isa = PBXGroup;
+			children = (
+				564C9DD724AD032E0089E7B1 /* ResourceDetailView.swift */,
+			);
+			path = ResourceDetails;
+			sourceTree = "<group>";
+		};
+		564C9DD924AD193F0089E7B1 /* ZeroGravity */ = {
+			isa = PBXGroup;
+			children = (
+				564C9DDA24AD194C0089E7B1 /* ZeroGravityView.swift */,
+			);
+			path = ZeroGravity;
+			sourceTree = "<group>";
+		};
+		5650E4C924AA4F28006FF973 /* Plinko */ = {
+			isa = PBXGroup;
+			children = (
+				564B5F5224ABE11B00E3C550 /* PlinkoView.swift */,
+			);
+			path = Plinko;
+			sourceTree = "<group>";
+		};
 		56A3F7D324A50D5E007FFF7F = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +193,13 @@
 			children = (
 				56A3F7DF24A50D5E007FFF7F /* ScienceScenterIOS14App.swift */,
 				56A3F7E124A50D5E007FFF7F /* ContentView.swift */,
+				56A3F81424A6C4EE007FFF7F /* activities.json */,
+				56A3F81524A6C4EE007FFF7F /* exhibits.json */,
+				56A3F81324A6C4EE007FFF7F /* Helper.swift */,
+				56A3F81624A6C4EE007FFF7F /* planets.json */,
+				56A3F81724A6C4EE007FFF7F /* ResourceList.json */,
+				56A3F80B24A50EF0007FFF7F /* Models */,
+				56A3F80A24A50EEA007FFF7F /* Views */,
 				56A3F7E324A50D5F007FFF7F /* Assets.xcassets */,
 				56A3F7E824A50D5F007FFF7F /* Info.plist */,
 				56A3F7E524A50D5F007FFF7F /* Preview Content */,
@@ -128,6 +231,140 @@
 				56A3F7FE24A50D5F007FFF7F /* Info.plist */,
 			);
 			path = ScienceScenterIOS14UITests;
+			sourceTree = "<group>";
+		};
+		56A3F80A24A50EEA007FFF7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F80D24A50F26007FFF7F /* DetailViews */,
+				56A3F80C24A50F1E007FFF7F /* MainViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56A3F80B24A50EF0007FFF7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F82024A6C505007FFF7F /* Activity.swift */,
+				56A3F81D24A6C505007FFF7F /* Exhibit.swift */,
+				56A3F81F24A6C505007FFF7F /* Planet.swift */,
+				56A3F81E24A6C505007FFF7F /* Resource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56A3F80C24A50F1E007FFF7F /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F82924A6C51B007FFF7F /* Activities */,
+				56A3F82524A6C51B007FFF7F /* Exhibits */,
+				56A3F83B24A6C51B007FFF7F /* Resources */,
+				56A3F83924A6C51B007FFF7F /* VirtualExhibits */,
+				56A3F80E24A50F2F007FFF7F /* Home */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		56A3F80D24A50F26007FFF7F /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				564C9DD624AD031F0089E7B1 /* ResourceDetails */,
+				56A3F85424A6C537007FFF7F /* ExhibitDetails */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		56A3F80E24A50F2F007FFF7F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F81124A68C8F007FFF7F /* MapView.swift */,
+				56A3F85B24A6C6E8007FFF7F /* Home.swift */,
+				56A3F85D24A6CAED007FFF7F /* FeaturedGrid.swift */,
+				56A3F85024A6C52C007FFF7F /* FeaturedList.swift */,
+				56A3F84F24A6C52C007FFF7F /* HomeImage.swift */,
+				56A3F84E24A6C52C007FFF7F /* LocationTitleView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		56A3F82524A6C51B007FFF7F /* Exhibits */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F82624A6C51B007FFF7F /* ExhibitList.swift */,
+				56A3F82724A6C51B007FFF7F /* ExhibitListItem.swift */,
+				56A3F82824A6C51B007FFF7F /* ExhibitCircleImage.swift */,
+			);
+			path = Exhibits;
+			sourceTree = "<group>";
+		};
+		56A3F82924A6C51B007FFF7F /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				564C9DD924AD193F0089E7B1 /* ZeroGravity */,
+				5650E4C924AA4F28006FF973 /* Plinko */,
+				56A3F82A24A6C51B007FFF7F /* MatchTheColor */,
+				56A3F82F24A6C51B007FFF7F /* PlanetNames */,
+				56A3F83424A6C51B007FFF7F /* ActivitiesList.swift */,
+				56A3F83524A6C51B007FFF7F /* BalanceGame */,
+			);
+			name = Activities;
+			path = ../../../../ScienceScenter/ScienceScenter/Views/MainViews/Activities;
+			sourceTree = "<group>";
+		};
+		56A3F82A24A6C51B007FFF7F /* MatchTheColor */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F82B24A6C51B007FFF7F /* MatchTheColorMainView.swift */,
+				56A3F82C24A6C51B007FFF7F /* ColorToMatch.swift */,
+				56A3F82E24A6C51B007FFF7F /* AlteredColor.swift */,
+			);
+			path = MatchTheColor;
+			sourceTree = "<group>";
+		};
+		56A3F82F24A6C51B007FFF7F /* PlanetNames */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F83024A6C51B007FFF7F /* GameOverSheetView.swift */,
+				56A3F83124A6C51B007FFF7F /* NameThePlanet.swift */,
+				56A3F83224A6C51B007FFF7F /* PlanetButton.swift */,
+				56A3F83324A6C51B007FFF7F /* AnswerText.swift */,
+			);
+			path = PlanetNames;
+			sourceTree = "<group>";
+		};
+		56A3F83524A6C51B007FFF7F /* BalanceGame */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F83624A6C51B007FFF7F /* Board.swift */,
+				56A3F83724A6C51B007FFF7F /* BalanceGameMainView.swift */,
+				56A3F83824A6C51B007FFF7F /* Triangle.swift */,
+			);
+			path = BalanceGame;
+			sourceTree = "<group>";
+		};
+		56A3F83924A6C51B007FFF7F /* VirtualExhibits */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F83A24A6C51B007FFF7F /* VirtualExhbitListView.swift */,
+			);
+			path = VirtualExhibits;
+			sourceTree = "<group>";
+		};
+		56A3F83B24A6C51B007FFF7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F83C24A6C51B007FFF7F /* ResourceList.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56A3F85424A6C537007FFF7F /* ExhibitDetails */ = {
+			isa = PBXGroup;
+			children = (
+				56A3F85524A6C537007FFF7F /* ExhibitDetailView.swift */,
+				56A3F85624A6C537007FFF7F /* TheScienceView.swift */,
+			);
+			path = ExhibitDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +471,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56A3F7E724A50D5F007FFF7F /* Preview Assets.xcassets in Resources */,
+				56A3F81B24A6C4EE007FFF7F /* planets.json in Resources */,
+				56A3F81A24A6C4EE007FFF7F /* exhibits.json in Resources */,
+				56A3F81C24A6C4EE007FFF7F /* ResourceList.json in Resources */,
 				56A3F7E424A50D5F007FFF7F /* Assets.xcassets in Resources */,
+				56A3F81924A6C4EE007FFF7F /* activities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +500,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A3F84A24A6C51B007FFF7F /* BalanceGameMainView.swift in Sources */,
+				56A3F85C24A6C6E8007FFF7F /* Home.swift in Sources */,
+				56A3F85E24A6CAED007FFF7F /* FeaturedGrid.swift in Sources */,
+				56A3F84824A6C51B007FFF7F /* ActivitiesList.swift in Sources */,
+				56A3F83F24A6C51B007FFF7F /* ExhibitCircleImage.swift in Sources */,
+				56A3F85724A6C537007FFF7F /* ExhibitDetailView.swift in Sources */,
+				56A3F84924A6C51B007FFF7F /* Board.swift in Sources */,
+				56A3F84024A6C51B007FFF7F /* MatchTheColorMainView.swift in Sources */,
+				56A3F81224A68C8F007FFF7F /* MapView.swift in Sources */,
+				56A3F81824A6C4EE007FFF7F /* Helper.swift in Sources */,
+				56A3F84D24A6C51B007FFF7F /* ResourceList.swift in Sources */,
+				564C9DDB24AD194C0089E7B1 /* ZeroGravityView.swift in Sources */,
+				56A3F84524A6C51B007FFF7F /* NameThePlanet.swift in Sources */,
+				56A3F84424A6C51B007FFF7F /* GameOverSheetView.swift in Sources */,
+				56A3F82324A6C505007FFF7F /* Planet.swift in Sources */,
+				56A3F82124A6C505007FFF7F /* Exhibit.swift in Sources */,
+				56A3F83D24A6C51B007FFF7F /* ExhibitList.swift in Sources */,
+				564B5F5324ABE11B00E3C550 /* PlinkoView.swift in Sources */,
 				56A3F7E224A50D5E007FFF7F /* ContentView.swift in Sources */,
+				56A3F84B24A6C51B007FFF7F /* Triangle.swift in Sources */,
+				56A3F83E24A6C51B007FFF7F /* ExhibitListItem.swift in Sources */,
+				56A3F85824A6C537007FFF7F /* TheScienceView.swift in Sources */,
+				56A3F84124A6C51B007FFF7F /* ColorToMatch.swift in Sources */,
+				56A3F85124A6C52C007FFF7F /* LocationTitleView.swift in Sources */,
+				56A3F82424A6C505007FFF7F /* Activity.swift in Sources */,
+				564C9DD824AD032E0089E7B1 /* ResourceDetailView.swift in Sources */,
+				56A3F84624A6C51B007FFF7F /* PlanetButton.swift in Sources */,
+				56A3F84C24A6C51B007FFF7F /* VirtualExhbitListView.swift in Sources */,
+				56A3F85324A6C52C007FFF7F /* FeaturedList.swift in Sources */,
+				56A3F84724A6C51B007FFF7F /* AnswerText.swift in Sources */,
+				56A3F84324A6C51B007FFF7F /* AlteredColor.swift in Sources */,
 				56A3F7E024A50D5E007FFF7F /* ScienceScenterIOS14App.swift in Sources */,
+				56A3F85224A6C52C007FFF7F /* HomeImage.swift in Sources */,
+				56A3F82224A6C505007FFF7F /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
